@@ -1,20 +1,26 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import PlayView from '../views/PlayView.vue'
+import HomeView from '../views/guess-and-guess/GuessHomeView.vue'
+import PlayView from '../views/guess-and-guess/GuessPlayView.vue'
+import ZibenHomeView from '@/views/fuck-ziben/ZibenHomeView.vue'
 
 const router = createRouter({
-  history: createWebHistory('/guessandguess/'),
+  history: createWebHistory('/'),
   routes: [
     {
-      path: '/',
+      path: '/guessandguess/home',
       name: 'home',
       component: HomeView,
     },
     {
-      path: '/play',
+      path: '/guessandguess/play',
       name: 'play',
       component: PlayView,
     },
+    {
+      path: '/ziben',
+      name: 'ziben',
+      component: ZibenHomeView,
+    }
   ],
 })
 

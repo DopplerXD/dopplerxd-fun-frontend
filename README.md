@@ -1,6 +1,14 @@
-# guess-frontend
+# dopplerxd-fun-front
 
-## 项目介绍
+本仓库为 dopplerxd.fun 的前端仓库，基于 Vue3 + ElementPlus。
+
+现有以下项目：
+- guess-and-guess: 猜 CS 选手小游戏
+- fuck-ziben: 做局模拟器
+
+## guess-frontend
+
+### 项目介绍
 
 猜 CS 选手小游戏，灵感来自 [blast.tv](https://blast.tv/counter-strikle)。
 
@@ -16,4 +24,4 @@
 6. 未达到上限，返回该选手与答案对应的提示，如年龄接近、在同一国家等
 7. 回到第 3 步继续猜测，知道猜对或达到猜测上限
 
-![img](https://cdn.nlark.com/yuque/0/2025/jpeg/35335189/1746545719859-55f8a27a-5db8-4400-9378-66c857446705.jpeg)
+![img](assets\guess-流程图.jpeg)

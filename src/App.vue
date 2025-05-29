@@ -1,9 +1,9 @@
 <template>
   <div class="background">
     <el-container>
-      <el-header>
+      <!-- <el-header>
         <NavComponent />
-      </el-header>
+      </el-header> -->
       <el-main>
         <RouterView />
       </el-main>
@@ -17,7 +17,7 @@ import { RouterView } from 'vue-router'
 import NavComponent from './components/NavComponent.vue';
 
 onMounted(() => {
-  document.title = 'Guess CS Pro'
+  document.title = 'DopplerXD\'s Fun'
 })
 
 // 解决ERROR ResizeObserver loop completed with undelivered notifications.

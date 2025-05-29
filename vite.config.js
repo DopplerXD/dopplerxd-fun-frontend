@@ -9,7 +9,7 @@ export default defineConfig({
     vue(),
   ],
   server: {
-    port: 8080 // 设置开发服务器端口为 8080
+    port: 3000 // 设置开发服务器端口为 3000
   },
   resolve: {
     alias: {

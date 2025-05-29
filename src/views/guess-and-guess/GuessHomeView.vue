@@ -3,10 +3,10 @@
     <el-button type="info" size="large" round @click="showCountryContinentInfoDialog = true">
       地区说明
     </el-button>
-    <el-button type="primary" size="large" round @click="$router.push('/play')">
+    <el-button type="primary" size="large" round @click="$router.push('/guessandguess/play')">
       单人游戏
     </el-button>
-    <el-button type="danger" size="large" round @click="$router.push('/multiplay')" disabled>
+    <el-button type="danger" size="large" round @click="$router.push('/guessandguess/multiplay')" disabled>
       多人游戏（待开发）
     </el-button>
 
