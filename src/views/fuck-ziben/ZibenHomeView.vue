@@ -38,7 +38,7 @@
         <el-button type="danger" size="large" @click="showShare">分享给朋友</el-button>
       </div>
     </div>
-    <el-dialog v-model="shareDialog" title="x67.top 显示" width="350px" :show-close="false" center>
+    <el-dialog v-model="shareDialog" title="dopplerxd.fun 显示" width="350px" :show-close="false" center>
       <div style="font-size: 16px; line-height: 2">
         <span style="font-size: 22px">🥳</span> 分享文本：<br />
         <span style="color: #555">“资本做局器”你敢来挑战吗？</span><br />

@@ -1,5 +1,6 @@
 <template>
   <div class="background">
+    <FloatingNavComponent />
     <el-container>
       <!-- <el-header>
         <NavComponent />
@@ -15,6 +16,7 @@
 import { onMounted } from 'vue';
 import { RouterView } from 'vue-router'
 import NavComponent from './components/NavComponent.vue';
+import FloatingNavComponent from './components/FloatingNavComponent.vue';
 
 onMounted(() => {
   document.title = 'DopplerXD\'s Fun'
