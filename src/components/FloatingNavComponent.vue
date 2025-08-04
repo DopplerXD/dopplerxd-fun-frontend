@@ -7,6 +7,7 @@
       <div class="nav-item" @click="navigateTo('/deepsleep')">DeepSleep</div>
       <div class="nav-item" @click="navigateTo('/guessandguess/home')">小游戏</div>
       <div class="nav-item" @click="navigateTo('/ziben')">资本模拟器</div>
+      <div class="nav-item" @click="navigateTo('/eat-what')">今天吃什么</div>
       <div class="nav-item" @click="navigateTo('https://www.dopplerxd.site')">我的博客</div>
       <div class="nav-item" @click="navigateTo('https://www.dopplerxd.site')">我的文档站</div>
     </div>

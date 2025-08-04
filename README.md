@@ -3,8 +3,11 @@
 本仓库为 dopplerxd.fun 的前端仓库，基于 Vue3 + ElementPlus。
 
 现有以下项目：
+
 - guess-and-guess: 猜 CS 选手小游戏
 - fuck-ziben: 做局模拟器
+- deepsleep: 疲倦的 AI
+- eat-what: 今天吃什么
 
 ## guess-frontend
 

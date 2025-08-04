@@ -4,6 +4,7 @@ import PlayView from '../views/guess-and-guess/GuessPlayView.vue'
 import ZibenHomeView from '@/views/fuck-ziben/ZibenHomeView.vue'
 import DeepSleepView from '@/views/deepsleep/DeepSleepView.vue'
 import DeepSleepChatView from '@/views/deepsleep/DeepSleepChatView.vue'
+import EatWhatView from '@/views/eat-what/EatWhatView.vue'
 
 const router = createRouter({
   history: createWebHistory('/'),
@@ -32,7 +33,12 @@ const router = createRouter({
       path: '/deepsleep/chat',
       name: 'deepsleep-chat',
       component: DeepSleepChatView,
-    }
+    },
+    {
+      path: '/eat-what',
+      name: 'eat-what',
+      component: EatWhatView,
+    },
   ],
 })
 
